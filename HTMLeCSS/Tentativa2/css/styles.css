@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/back.webp);
+}
+.titulo{
+    position: relative;
+    margin: auto;
+    background-color: blue;
+    height: 67px;
+    width: 285px;
+    margin-bottom: 2%;
+    text-align: center;
+    border:05px solid #000000 ; 
+    border-radius: 10px;
+}
+.img{
+    position: relative;
+    width: 420px;
+    height: 323px;
+    background-color: black;
+    border:05px solid #000000 ; 
+    border-radius: 10px;
+    margin: auto;
+}
+.img .imagem{
+    width: 420px;
+    height: 323px;
+}
+.texto{
+    position: relative;
+    font-size:small;
+}
+.texto .up{
+    position: relative;
+    margin: auto;
+    background-color: green;
+    height: 17px;
+    width: 1080px;
+    margin-bottom: 4%;
+    border:05px solid #000000 ; 
+    border-radius: 10px;
+}
+.texto .direita{
+    position: relative;
+    background-color: grey;
+    position: relative;
+    width: 203px;
+    height: 319px;
+    margin-top: -21%;
+    margin-left: 71%;
+    border:05px solid #000000 ; 
+    border-radius: 10px;
+}
+.texto .esquerda{
+    position: relative;
+    width: 203px;
+    height: 195px;
+    background-color: purple;
+    margin-top: -20%;
+    margin-left: 171px;
+    border:05px solid #000000 ; 
+    border-radius: 10px;
+}
+.texto .baixo{
+    position: relative;
+    margin: auto;
+    background-color: red;
+    height: 17px;
+    width: 1112px;
+    margin-top: 56px;
+    border:05px solid #000000 ; 
+    border-radius: 10px;
+}

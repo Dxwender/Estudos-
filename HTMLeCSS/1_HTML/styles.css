@@ -1,0 +1,64 @@
+/*Linkar o arquivo css no aquivo html*/
+/*Colocar o mesmo nome da tag no arquivo css*/
+body{
+    /*Colocando  tipo de fonte em todo o corpo de html*/
+    font-family: Arial, Helvetica, sans-serif;
+
+    /*Centralizand o texto do corpo HTML*/
+    text-align: center;
+
+    /*Mudando a cor do texto*/
+    color:#FFF;
+
+    /*Mudando a cor de fundo*/
+    background-color: #111;
+
+    /*Tira marge de todo o corpo*/
+    padding: 0;
+    margin: 0;
+}
+nav{
+   /*Muda a disposição da barra de navegaçao de titulo*/ 
+   display: flex;
+
+   /*Cria um espasamento entre os elementos de forma igual*/
+   justify-content: space-between;
+
+   /*Espaçamento interno (Tira o site dos cantos)*/
+   padding: 20px solid #666; 
+
+   /*Coloca uma linha , tamanho e cor*/
+   border-bottom: 1px solid #666;
+}
+nav ul{
+   /*Muda a disposição da barra de navegaçao */ 
+   display: flex;
+
+   /*Centraliza os itens da lista*/
+   align-items: center;
+
+   /*Tira as marcações de uma lista*/
+   list-style: none;
+
+}
+ul li{
+   /*Afasta o item de uma lista do outro*/ 
+   margin-right: 10px; 
+}
+ul li a{
+    /*Muda a cor do link na lista especifica*/
+    color: #FFF;
+}
+h1{
+ /*Almenta o tamanho da fonte*/   
+ font-size: 32px;   
+}
+img{
+ /*Adiciona borda da imagem*/   
+ border:20px solid #000 ;   
+}
+footer{
+ padding:20px;
+ border-top:1px solid #666 ;
+ margin-top: 20px;   
+}
